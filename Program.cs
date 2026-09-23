@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int [] notas={15,18,12,17,20};
+
+//imprimir las notas
+for(int i=0; i<notas.Length; i++)
+{
+    Console.WriteLine(notas[i]);
+}
